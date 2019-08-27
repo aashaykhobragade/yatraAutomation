@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="74.57956">
+<testcase classname="yatra.com validations" name="yatra.com Use case1 scenarios" time="49.876391">
+<system-out><![CDATA[Given User is already on yatra.com page.....................................passed
+Then User clicks on Hotels..................................................passed
+And User selects city as Jaipur.............................................passed
+And User selects Checkin and Checkout dates.................................passed
+Then User selects Travellers................................................passed
+And Clicks Search Hotels button.............................................passed
+Then Print Total number of Hotel records....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="yatra.com validations" name="yatra.com Use case2 scenarios" time="24.703169">
+<system-out><![CDATA[Given User Selects Star rating as 5 Star....................................passed
+Then User Selects bottom of top 5 hotel.....................................passed
+Then User clicks Hotel and Print the price..................................passed
+And User Clicks on review tab...............................................passed
+When User choose room button and click on book now..........................passed
+Then User Verify the same price and hotel name..............................passed
+And User Verify the tariff details..........................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
